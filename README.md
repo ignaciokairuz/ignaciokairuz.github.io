@@ -1,1 +1,1 @@
-# ignaciokairuz.github.io
+<iframe title="Marcas & Modelos x Categoría - TABLA DINÁMICA" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=54df9bb9-b9dc-4e67-bbdb-71c0b427343d&autoAuth=true&ctid=b41ac89a-6984-4110-853b-f6f558dee7d4&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWNlbnRyYWwtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>
