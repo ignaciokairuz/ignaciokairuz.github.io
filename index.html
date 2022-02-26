@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <style type="text/css">
 :root {
@@ -95,10 +94,10 @@ td:first-child + td + td + td {
   vertical-align: middle;
 }
 .dir::before {
-  content: url(https://www.w3.org/icons/folder.png);
+  content: url(resource://content-accessible/html/folder.png);
 }
 </style>
-<link rel="stylesheet" media="screen, projection" type="text/css" href="assets/dirListing.css">
+<link rel="stylesheet" media="screen, projection" type="text/css" href="chrome://global/skin/dirListing/dirListing.css">
 <script type="application/javascript">
 'use strict';
 var gTable, gOrderBy, gTBody, gRows, gUI_showHidden;
@@ -180,14 +179,13 @@ function updateHidden() {
 }
 </script>
 <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjFJREFUeNqsU8uOElEQPffR3XQ3ONASdBJCSBxHos5%2B3Bg3rvkCv8PElS78gPkO%2FATjQoUdO2ftrJiRh6aneTb9sOpC4weMN6lcuFV16pxDIfI8x12OYIDhcPiu2Wx%2B%2FHF5CW1Z6Jyegt%2FTNEWSJIjjGFEUIQxDrFYrWFSzXC4%2FdLvd95pRKpXKy%2BpRFZ7nwaWo1%2BsGnQG2260BKJfLKJVKGI1GEEJw7ateryd0v993W63WEwjgxfn5obGYzgCbzcaEbdsIggDj8Riu6z6iUk9SYZMSx8W0LMsM%2FSKK75xnJlIq80anQXdbEp0OhcPJ0eiaJnGRMEyyPDsAKKUM9clkYoDo3SZJzzSdp0VSKYmfV1co%2Bz580kw5KDIM8RbRfEnUf1HzxtQyMAGcaGruTKczMzEIaqhKifV6jd%2BzGQQB5llunF%2FM52BizC2K5sYPYvZcu653tjOM9O93wnYc08gmkgg4VAxixfqFUJT36AYBZGd6PJkFCZnnlBxMp38gqIgLpZB0y4Nph18lyWh5FFbrOSxbl3V4G%2BVB7T4ajYYxTyuLtO%2BCvWGgJE1Mc7JNsJEhvgw%2FQV4fo%2F24nbEsX2u1d5sVyn8sJO0ZAQiIYnFh%2BxrfLz%2Fj29cBS%2FO14zg3i8XigW3ZkErDtmKoeM%2BAJGRMnXeEPGKf0nCD1ydvkDzU9Jbc6OpR7WIw6L8lQ%2B4pQ1%2FlPF0RGM9Ns91Wmptk0GfB4EJkt77vXYj%2F8m%2B8y%2FkrwABHbz2H9V68DQAAAABJRU5ErkJggg%3D%3D">
-<title>Index of file:///home/nacho/Desktop/</title>
-<!-- base href="file:///home/nacho/Desktop/" -->
+<title>Index of file:///</title>
+<base href="file:///">
 </head>
 <body dir="ltr">
-<h1>Index of file:///home/nacho/Desktop/</h1>
-<p id="UI_goUp"><a class="up" href="file:///home/nacho/">Up to higher level directory</a></p>
-<p id="UI_showHidden" style="display: block;"><label><input type="checkbox" checked="checked" onchange="updateHidden()">Show hidden objects</label></p>
-<table order="" class="">
+<h1>Index of file:///</h1>
+<p id="UI_showHidden" style="display:none"><label><input type="checkbox" checked="" onchange="updateHidden()">Show hidden objects</label></p>
+<table order="">
  <thead>
   <tr>
    <th><a href="">Name</a></th>
@@ -197,106 +195,144 @@ function updateHidden() {
  </thead>
  <tbody>
 <tr>
- <tr>
- <td sortable-data="2Essay_Writing_Guide.odt"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Essay_Writing_Guide.odt"><img src="https://www.w3.org/icons/folder.png" alt="File:">Essay_Writing_Guide.odt</a></td></tr></tbody></table></td>
- <td sortable-data="38095">38 KB</td>
- <td sortable-data="1620579135000000">5/9/21</td>
- <td>May 9, 2021</td>
-</tr><tr>
- <td sortable-data="1FOLDER"><table class="ellipsis"><tbody><tr><td><a class="dir" href="file:///home/nacho/Desktop/FOLDER/">FOLDER</a></td></tr></tbody></table></td>
+ <td sortable-data="1bin"><table class="ellipsis"><tbody><tr><td><a class="dir" href="bin/">bin</a></td></tr></tbody></table></td>
  <td></td>
- <td sortable-data="1628356461000000">8/7/21</td>
- <td>August 7, 2021</td>
+ <td sortable-data="1644363402000000">2/8/22</td>
+ <td>February 8, 2022</td>
 </tr><tr>
- <td sortable-data="2Home is wherever i'm with you"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Home%20is%20wherever%20i'm%20with%20you"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_007" alt="File:">Home is wherever i'm with you</a></td></tr></tbody></table></td>
- <td sortable-data="91059">89 KB</td>
- <td sortable-data="1616207978000000">3/19/21</td>
- <td>March 19, 2021</td>
-</tr><tr>
- <td sortable-data="2How I Built a Web Scraper with Beautiful Soup and Used it to Land My First&nbsp;Job.html"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/How%20I%20Built%20a%20Web%20Scraper%20with%20Beautiful%20Soup%20and%20Used%20it%20to%20Land%20My%20First%C2%A0Job.html"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_003" alt="File:">How I Built a Web Scraper with Beautiful Soup and Used it to Land My First&nbsp;Job.html</a></td></tr></tbody></table></td>
- <td sortable-data="64616">64 KB</td>
- <td sortable-data="1622653533000000">6/2/21</td>
- <td>June 2, 2021</td>
-</tr><tr>
- <td sortable-data="2IMPROVEMENTS.txt"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/IMPROVEMENTS.txt"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_008" alt="File:">IMPROVEMENTS.txt</a></td></tr></tbody></table></td>
- <td sortable-data="4906">5 KB</td>
- <td sortable-data="1623022097000000">6/6/21</td>
- <td>June 6, 2021</td>
-</tr><tr>
- <td sortable-data="2Iwil.jpeg"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Iwil.jpeg"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_009" alt="File:">Iwil.jpeg</a></td></tr></tbody></table></td>
- <td sortable-data="9423">10 KB</td>
- <td sortable-data="1619351745000000">4/25/21</td>
- <td>April 25, 2021</td>
-</tr><tr>
- <td sortable-data="2Job Board | Adecco.html"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Job%20Board%20|%20Adecco.html"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_003" alt="File:">Job Board | Adecco.html</a></td></tr></tbody></table></td>
- <td sortable-data="92688">91 KB</td>
- <td sortable-data="1611746617000000">1/27/21</td>
- <td>January 27, 2021</td>
-</tr><tr>
- <td sortable-data="1Linked in"><table class="ellipsis"><tbody><tr><td><a class="dir" href="file:///home/nacho/Desktop/Linked%20in/">Linked in</a></td></tr></tbody></table></td>
+ <td sortable-data="1boot"><table class="ellipsis"><tbody><tr><td><a class="dir" href="boot/">boot</a></td></tr></tbody></table></td>
  <td></td>
- <td sortable-data="1620946351000000">5/13/21</td>
- <td>May 13, 2021</td>
+ <td sortable-data="1645748651000000">2/24/22</td>
+ <td>February 24, 2022</td>
 </tr><tr>
- <td sortable-data="2Notes.txt"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Notes.txt"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_008" alt="File:">Notes.txt</a></td></tr></tbody></table></td>
- <td sortable-data="8611">9 KB</td>
- <td sortable-data="1627573519000000">7/29/21</td>
- <td>July 29, 2021</td>
-</tr><tr>
- <td sortable-data="2ORDER.txt"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/ORDER.txt"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_008" alt="File:">ORDER.txt</a></td></tr></tbody></table></td>
- <td sortable-data="426">1 KB</td>
- <td sortable-data="1623539196000000">6/12/21</td>
- <td>June 12, 2021</td>
-</tr><tr>
- <td sortable-data="2Plain Text.txt"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Plain%20Text.txt"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_008" alt="File:">Plain Text.txt</a></td></tr></tbody></table></td>
- <td sortable-data="2160">3 KB</td>
- <td sortable-data="1618242754000000">4/12/21</td>
- <td>April 12, 2021</td>
-</tr><tr>
- <td sortable-data="1Pygame - The Great Farmer (copy 1)"><table class="ellipsis"><tbody><tr><td><a class="dir" href="file:///home/nacho/Desktop/Pygame%20-%20The%20Great%20Farmer%20(copy%201)/">Pygame - The Great Farmer (copy 1)</a></td></tr></tbody></table></td>
+ <td sortable-data="1cdrom"><table class="ellipsis"><tbody><tr><td><a class="dir" href="cdrom/">cdrom</a></td></tr></tbody></table></td>
  <td></td>
- <td sortable-data="1613402133000000">2/15/21</td>
- <td>February 15, 2021</td>
+ <td sortable-data="1605027662000000">11/10/20</td>
+ <td>November 10, 2020</td>
 </tr><tr>
- <td sortable-data="2Questions.txt"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Questions.txt"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_008" alt="File:">Questions.txt</a></td></tr></tbody></table></td>
- <td sortable-data="941">1 KB</td>
- <td sortable-data="1622066303000000">5/26/21</td>
- <td>May 26, 2021</td>
-</tr><tr>
- <td sortable-data="1RESUMES CV"><table class="ellipsis"><tbody><tr><td><a class="dir" href="file:///home/nacho/Desktop/RESUMES%20CV/">RESUMES CV</a></td></tr></tbody></table></td>
+ <td sortable-data="1dev"><table class="ellipsis"><tbody><tr><td><a class="dir" href="dev/">dev</a></td></tr></tbody></table></td>
  <td></td>
- <td sortable-data="1620934048000000">5/13/21</td>
- <td>May 13, 2021</td>
+ <td sortable-data="1645888077000000">2/26/22</td>
+ <td>February 26, 2022</td>
 </tr><tr>
- <td sortable-data="2Resume (copy 1).pdf"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Resume%20(copy%201).pdf"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_002" alt="File:">Resume (copy 1).pdf</a></td></tr></tbody></table></td>
- <td sortable-data="156600">153 KB</td>
- <td sortable-data="1620933124000000">5/13/21</td>
- <td>May 13, 2021</td>
-</tr><tr>
- <td sortable-data="2Study Anything Faster.odt"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/Study%20Anything%20Faster.odt"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_004" alt="File:">Study Anything Faster.odt</a></td></tr></tbody></table></td>
- <td sortable-data="366758">359 KB</td>
- <td sortable-data="1621550868000000">5/20/21</td>
- <td>May 20, 2021</td>
-</tr><tr>
- <td sortable-data="1T P ' S"><table class="ellipsis"><tbody><tr><td><a class="dir" href="file:///home/nacho/Desktop/T%20P%20'%20S/">T P ' S</a></td></tr></tbody></table></td>
+ <td sortable-data="1etc"><table class="ellipsis"><tbody><tr><td><a class="dir" href="etc/">etc</a></td></tr></tbody></table></td>
  <td></td>
- <td sortable-data="1620421566000000">5/7/21</td>
- <td>May 7, 2021</td>
+ <td sortable-data="1645748786000000">2/24/22</td>
+ <td>February 24, 2022</td>
 </tr><tr>
- <td sortable-data="2TODAY'S RESULTS.txt"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/TODAY'S%20RESULTS.txt"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_008" alt="File:">TODAY'S RESULTS.txt</a></td></tr></tbody></table></td>
- <td sortable-data="37">1 KB</td>
- <td sortable-data="1622670207000000">6/2/21</td>
- <td>June 2, 2021</td>
-</tr><tr>
- <td sortable-data="1TRIÑANES"><table class="ellipsis"><tbody><tr><td><a class="dir" href="file:///home/nacho/Desktop/TRI%C3%91ANES/">TRIÑANES</a></td></tr></tbody></table></td>
+ <td sortable-data="1home"><table class="ellipsis"><tbody><tr><td><a class="dir" href="home/">home</a></td></tr></tbody></table></td>
  <td></td>
- <td sortable-data="1627100183000000">7/24/21</td>
- <td>July 24, 2021</td>
+ <td sortable-data="1605027767000000">11/10/20</td>
+ <td>November 10, 2020</td>
 </tr><tr>
- <td sortable-data="2The Best Abs Workout The Only 6 Exercises You Need to Get a Six-Pack | GQ.html"><table class="ellipsis"><tbody><tr><td><a class="file" href="file:///home/nacho/Desktop/The%20Best%20Abs%20Workout%20The%20Only%206%20Exercises%20You%20Need%20to%20Get%20a%20Six-Pack%20|%20GQ.html"><img src="Index%20of%20file%20_home_nacho_Desktop__files/a_003" alt="File:">The Best Abs Workout The Only 6 Exercises You Need to Get a Six-Pack | GQ.html</a></td></tr></tbody></table></td>
- <td sortable-data="383207">375 KB</td>
- <td sortable-data="1618413717000000">4/14/21</td>
- <td>April 14, 2021</td>
-</tr>
+ <td sortable-data="2initrd.img"><table class="ellipsis"><tbody><tr><td><a class="file" href="initrd.img"><img src="moz-icon://.img?size=16" alt="File:">initrd.img</a></td></tr></tbody></table></td>
+ <td sortable-data="43296484">42282 KB</td>
+ <td sortable-data="1645495626000000">2/21/22</td>
+ <td>February 21, 2022</td>
+</tr><tr>
+ <td sortable-data="2initrd.img.old"><table class="ellipsis"><tbody><tr><td><a class="file" href="initrd.img.old"><img src="moz-icon://.old?size=16" alt="File:">initrd.img.old</a></td></tr></tbody></table></td>
+ <td sortable-data="43291574">42277 KB</td>
+ <td sortable-data="1644363547000000">2/8/22</td>
+ <td>February 8, 2022</td>
+</tr><tr>
+ <td sortable-data="1lib"><table class="ellipsis"><tbody><tr><td><a class="dir" href="lib/">lib</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1608819411000000">12/24/20</td>
+ <td>December 24, 2020</td>
+</tr><tr>
+ <td sortable-data="1lib32"><table class="ellipsis"><tbody><tr><td><a class="dir" href="lib32/">lib32</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1608819411000000">12/24/20</td>
+ <td>December 24, 2020</td>
+</tr><tr>
+ <td sortable-data="1lib64"><table class="ellipsis"><tbody><tr><td><a class="dir" href="lib64/">lib64</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1608819419000000">12/24/20</td>
+ <td>December 24, 2020</td>
+</tr><tr>
+ <td sortable-data="1lost+found"><table class="ellipsis"><tbody><tr><td><a class="dir" href="lost+found/">lost+found</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1605027281000000">11/10/20</td>
+ <td>November 10, 2020</td>
+</tr><tr>
+ <td sortable-data="1media"><table class="ellipsis"><tbody><tr><td><a class="dir" href="media/">media</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1605032966000000">11/10/20</td>
+ <td>November 10, 2020</td>
+</tr><tr>
+ <td sortable-data="1mnt"><table class="ellipsis"><tbody><tr><td><a class="dir" href="mnt/">mnt</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1630551006000000">9/1/21</td>
+ <td>September 1, 2021</td>
+</tr><tr>
+ <td sortable-data="1opt"><table class="ellipsis"><tbody><tr><td><a class="dir" href="opt/">opt</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1644015393000000">2/4/22</td>
+ <td>February 4, 2022</td>
+</tr><tr>
+ <td sortable-data="1proc"><table class="ellipsis"><tbody><tr><td><a class="dir" href="proc/">proc</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1645848207000000">2/26/22</td>
+ <td>February 26, 2022</td>
+</tr><tr>
+ <td sortable-data="1root"><table class="ellipsis"><tbody><tr><td><a class="dir" href="root/">root</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1620825763000000">5/12/21</td>
+ <td>May 12, 2021</td>
+</tr><tr>
+ <td sortable-data="1run"><table class="ellipsis"><tbody><tr><td><a class="dir" href="run/">run</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1645896497000000">2/26/22</td>
+ <td>February 26, 2022</td>
+</tr><tr>
+ <td sortable-data="1sbin"><table class="ellipsis"><tbody><tr><td><a class="dir" href="sbin/">sbin</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1643327824000000">1/27/22</td>
+ <td>January 27, 2022</td>
+</tr><tr>
+ <td sortable-data="1snap"><table class="ellipsis"><tbody><tr><td><a class="dir" href="snap/">snap</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1632297222000000">9/22/21</td>
+ <td>September 22, 2021</td>
+</tr><tr>
+ <td sortable-data="1srv"><table class="ellipsis"><tbody><tr><td><a class="dir" href="srv/">srv</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1596753165000000">8/6/20</td>
+ <td>August 6, 2020</td>
+</tr><tr>
+ <td sortable-data="2swapfile"><table class="ellipsis"><tbody><tr><td><a class="file" href="swapfile"><img src="moz-icon://unknown?size=16" alt="File:">swapfile</a></td></tr></tbody></table></td>
+ <td sortable-data="2147483648">2097152 KB</td>
+ <td sortable-data="1605027331000000">11/10/20</td>
+ <td>November 10, 2020</td>
+</tr><tr>
+ <td sortable-data="1sys"><table class="ellipsis"><tbody><tr><td><a class="dir" href="sys/">sys</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1645848208000000">2/26/22</td>
+ <td>February 26, 2022</td>
+</tr><tr>
+ <td sortable-data="1tmp"><table class="ellipsis"><tbody><tr><td><a class="dir" href="tmp/">tmp</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1645905758000000">2/26/22</td>
+ <td>February 26, 2022</td>
+</tr><tr>
+ <td sortable-data="1usr"><table class="ellipsis"><tbody><tr><td><a class="dir" href="usr/">usr</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1605031944000000">11/10/20</td>
+ <td>November 10, 2020</td>
+</tr><tr>
+ <td sortable-data="1var"><table class="ellipsis"><tbody><tr><td><a class="dir" href="var/">var</a></td></tr></tbody></table></td>
+ <td></td>
+ <td sortable-data="1596753677000000">8/6/20</td>
+ <td>August 6, 2020</td>
+</tr><tr>
+ <td sortable-data="2vmlinuz"><table class="ellipsis"><tbody><tr><td><a class="file" href="vmlinuz"><img src="moz-icon://unknown?size=16" alt="File:">vmlinuz</a></td></tr></tbody></table></td>
+ <td sortable-data="10952960">10697 KB</td>
+ <td sortable-data="1644245042000000">2/7/22</td>
+ <td>February 7, 2022</td>
+</tr><tr>
+ <td sortable-data="2vmlinuz.old"><table class="ellipsis"><tbody><tr><td><a class="file" href="vmlinuz.old"><img src="moz-icon://.old?size=16" alt="File:">vmlinuz.old</a></td></tr></tbody></table></td>
+ <td sortable-data="10952960">10697 KB</td>
+ <td sortable-data="1643896364000000">2/3/22</td>
+ <td>February 3, 2022</td>
 </tr></tbody></table>
 </body></html>
